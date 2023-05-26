@@ -1,0 +1,44 @@
+body, html {
+  background-color: #1D5DEC;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.treehugger.com%2Fthmb%2FnSp8ESJ1N6zq_bsTVL_MoSrKAqA%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FGettyImages-1273584292-cbcd5f85f4c646d58f7a7fa158dcaaeb.jpg&tbnid=5bUqPZ2-2auKnM&vet=12ahUKEwjn0fTBh4z_AhX0OkQIHXVLABkQMygBegUIARDiAQ..i&imgrefurl=https%3A%2F%2Fwww.treehugger.com%2Fwoods-vs-forest-5182505&docid=JnzJqfmkq6G80M&w=1500&h=1000&q=forest&safe=active&ved=2ahUKEwjn0fTBh4z_AhX0OkQIHXVLABkQMygBegUIARDiAQ");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+button {
+  border: none;
+  outline: 100;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #006400;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00FF00;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
